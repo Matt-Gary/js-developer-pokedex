@@ -4,14 +4,36 @@
 }
 
 body {
-    background-color: #f6f8fc;
+    background-image: url('/assets/img/pokemon-background.jpg');
+    background-position: center;
 }
-
+header {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #c71515;
+    color: #fff;
+    opacity: 0.8;
+    text-align: center;
+    align-items: center;
+    margin:auto;
+    padding: 10px 5px;
+    width: 101%;
+    border-radius: 2rem;
+    box-sizing: border-box;
+}
+.pokeball {
+    height: 100px;
+    
+}
+header .pokeball {
+    padding: auto;
+}
 .content {
     width: 100vw;
     height: 100vh;
     padding: 1rem;
-    background-color: #fff;
+  
 }
 
 @media screen and (min-width: 992px) {
