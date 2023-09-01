@@ -14,8 +14,7 @@ header {
     background-color: #c71515;
     color: #fff;
     opacity: 0.8;
-    text-align: center;
-    align-items: center;
+    justify-content: center;
     margin:auto;
     padding: 10px 5px;
     width: 101%;
